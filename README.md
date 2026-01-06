@@ -1,6 +1,5 @@
 # CUDA-Accelerated Transformer Inference Ops (PyTorch Extension)
 
-## TL;DR
 Built a **PyTorch C++/CUDA extension** that accelerates transformer inference by implementing a **fused RMSNorm forward kernel** optimized for **low-latency decoding**.
 
 Achieved **X% lower kernel time** and **Y% lower end-to-end p95 latency** in a **FastAPI inference microservice benchmark** compared to the PyTorch baseline.
