@@ -1,0 +1,48 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ======================
+# Conda / virtualenv
+# ======================
+.env
+.venv/
+.conda/
+conda-bld/
+
+# ======================
+# PyTorch / CUDA builds
+# ======================
+**/*.so
+**/*.o
+**/*.a
+**/*.ptx
+**/*.cubin
+**/*.fatbin
+**/torch_extensions/
+
+# ======================
+# CUDA / profiling
+# ======================
+*.nvvp
+*.ncu-rep
+*.qdrep
+
+# ======================
+# Logs / benchmarks
+# ======================
+*.log
+bench/results/
+
+# ======================
+# OS / editor
+# ======================
+.DS_Store
+.vscode/
+.idea/
